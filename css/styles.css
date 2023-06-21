@@ -11,8 +11,9 @@
 };
 
 .body {
-    font-family: 'Roboto';
-    color: #2E2F42;
+    font-family: 'Roboto' sans-serif;
+    color: #434455;
+    background-color: #FFFFFF
 }
 
 /*----------HEADER----------*/
@@ -52,6 +53,7 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .header-mail {
@@ -59,7 +61,6 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .header-tel {
@@ -67,7 +68,6 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /*----------HERO----------*/
@@ -108,7 +108,8 @@ font-family: 'Roboto';
     font-weight: 500;
         font-size: 20px;
         line-height: 24px;   
-        letter-spacing: 0.02em;    
+        letter-spacing: 0.02em; 
+        color: #2E2F42;
 }
 
 .about-top-text {
@@ -116,7 +117,6 @@ font-family: 'Roboto';
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
 }
 
 /*----------TEAM----------*/
@@ -128,6 +128,7 @@ font-family: 'Roboto';
         font-size: 36px;
         line-height: 40px;
         letter-spacing: 0.02em;
+        color: #2E2F42;
 }
 
 .team-name {
@@ -135,6 +136,7 @@ font-family: 'Roboto';
         font-size: 20px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        color: #2E2F42;
 }
 
 .team-work {
@@ -142,7 +144,6 @@ font-family: 'Roboto';
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
 }
 
 /*----------FOOTER----------*/
@@ -217,6 +218,7 @@ font-weight: 400;
         font-size: 20px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        color: #2E2F42;
 }
 
 .port-text {
@@ -224,5 +226,4 @@ font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
 }
