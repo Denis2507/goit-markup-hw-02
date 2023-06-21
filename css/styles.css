@@ -1,3 +1,7 @@
+:root {
+    --body-color: #434455;
+}
+
 .link {
     text-decoration: none;
 }
@@ -12,33 +16,31 @@
 
 .body {
     font-family: 'Roboto' sans-serif;
-    color: #434455;
+    color: var(--body-color);
     background-color: #FFFFFF
 }
 
 /*----------HEADER----------*/
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway',
+        sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;    
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     color: #4D5AE5;
 }
 
 .header-logo-studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway',
+        sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;    
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;    
         color: #2E2F42;
@@ -72,7 +74,9 @@
 
 /*----------HERO----------*/
 
-.hero {}
+.hero {
+    background-color: #2E2F42;
+}
 
 .hero-title {
     font-weight: 700;
@@ -85,18 +89,21 @@
 .btn {}
 
 .btn-text {
-font-family: 'Roboto';
+font-family: 'Roboto',
+    sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
 
 /*----------ABOUT----------*/
+
+.section {
+    display: none;
+}
 
 .about {}
 
@@ -148,29 +155,27 @@ font-family: 'Roboto';
 
 /*----------FOOTER----------*/
 
-.footer {}
+.footer {
+    background-color: #2E2F42;
+}
 
 .footer-logo {
-font-family: 'Raleway';
+font-family: 'Raleway',sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
 }
 
 .footer-logo-studio {
-font-family: 'Raleway';
+font-family: 'Raleway',sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
@@ -193,7 +198,8 @@ font-weight: 400;
 .port-item {}
 
 .port-btn {
-    font-family: 'Roboto';
+    font-family: 'Roboto',
+        sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
