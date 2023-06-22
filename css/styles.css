@@ -104,7 +104,9 @@ font-family: 'Roboto',
     display: none;
 }
 
-.about {}
+.about {
+    background-color: #FFFFFF;
+}
 
 .about-list {}
 
@@ -125,9 +127,29 @@ font-family: 'Roboto',
         letter-spacing: 0.02em;
 }
 
+.image {
+    background-color: #FFFFFF;
+}
+
+.image-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.image-list {}
+
+.image-item {}
+
 /*----------TEAM----------*/
 
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-our {
     font-weight: 700;
