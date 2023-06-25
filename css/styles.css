@@ -14,7 +14,7 @@
     display: none;
 };
 
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     color: var(--body-color);
     background-color: #FFFFFF
@@ -57,7 +57,7 @@
     color: #2E2F42;
 }
 
-.header-link1:is(:hover, :focus) {
+.header-link:is(:hover, :focus) {
 color: #404bbf;
 }
 
