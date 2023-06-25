@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--body-color);
+    color: #434455;
     background-color: #FFFFFF
 }
 
@@ -57,8 +57,12 @@ body {
     color: #2E2F42;
 }
 
-.header-link:is(:hover, :focus) {
+.header-link: hover {
 color: #404bbf;
+}
+
+.header-link: focus {
+    color: #404bbf;
 }
 
 
@@ -98,7 +102,6 @@ font-style: normal
 .btn {}
 
 .btn-text {
-    background-color: #4D5AE5;
     font-family: 'Roboto',
     sans-serif;
     font-style: normal;
@@ -107,13 +110,15 @@ font-style: normal
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    
+    background-color: #4D5AE5;
 }
 
-.btn-text:is(:hover, :focus) {
+.btn-text: hover {
     background-color: #404BBF;
+}
+
+.btn-text: focus {
     background-color: #404BBF;
-    cursor: pointer
 }
 
 /*----------ABOUT----------*/
