@@ -57,8 +57,11 @@
     color: #2E2F42;
 }
 
+.header-addres {
+font-style: normal
+}
+
 .header-mail {
-    font-style: normal
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -90,7 +93,8 @@
 .btn {}
 
 .btn-text {
-font-family: 'Roboto',
+    background-color: #4D5AE5;
+    font-family: 'Roboto',
     sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -98,12 +102,13 @@ font-family: 'Roboto',
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: #4D5AE5
+    
 }
 
 .btn-text:is(:hover, :focus) {
     background-color: #404BBF;
     background-color: #404BBF;
+    cursor: pointer
 }
 
 /*----------ABOUT----------*/
