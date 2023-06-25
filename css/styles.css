@@ -70,7 +70,7 @@ color: #404bbf;
 font-style: normal
 }
 
-.header-mail {
+.header-cont {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -78,29 +78,14 @@ font-style: normal
     color: var(--body-color);
 }
 
-.header-mail:hover {
+.header-cont:hover {
     color: #404bbf;
 }
 
-.header-mail:focus {
+.header-cont:focus {
     color: #404bbf;
 }
 
-.header-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--body-color);
-}
-
-.header-tel:hover {
-    color: #404bbf;
-}
-
-.header-tel:focus {
-    color: #404bbf;
-}
 
 /*----------HERO----------*/
 
