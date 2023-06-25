@@ -82,6 +82,7 @@
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
         color: #FFFFFF;
 }
 
@@ -96,6 +97,12 @@ font-family: 'Roboto',
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    background-color: #4D5AE5
+}
+
+.btn-text:is(:hover, :focus) {
+    background-color: #404BBF;
+    background-color: #404BBF;
 }
 
 /*----------ABOUT----------*/
@@ -114,7 +121,7 @@ font-family: 'Roboto',
 
 .about-title {
     font-weight: 500;
-        font-size: 20px;
+      font-size: 20px;
         line-height: 1.2;   
         letter-spacing: 0.02em; 
         color: #2E2F42;
@@ -140,7 +147,6 @@ font-family: 'Roboto',
         text-transform: capitalize;
         color: #2E2F42;
 }
-
 .image-list {}
 
 .image-item {}
@@ -156,6 +162,8 @@ font-family: 'Roboto',
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
         color: #2E2F42;
 }
 
